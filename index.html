@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework - Semantic Elements</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <main>
+    <header class="header">
+      <nav>
+        <ul>
+          <li><a href="#semantics">Семантичні елементи</a></li>
+          <li><a href="#support">Підтримка браузерів</a></li>
+          <li><a href="#new-elements">Нові елементи в HTML5</a></li>
+          <li><a href="#section">Елемент &lt;section&gt;</a></li>
+          <li><a href="#header">Елемент &lt;header&gt;</a></li>
+          <li><a href="#article">Елемент &lt;article&gt;</a></li>
+          <li><a href="#footer">Елемент &lt;footer&gt;</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="content">
       <article>
-        <h1>HTML5 Семантичні елементи</h1>        
+        <h1 id="semantics">HTML5 Семантичні елементи</h1>
         <section>
           <p>
             Семантичний елемент чітко описує його значення як для браузера, так і
@@ -24,7 +40,7 @@
           </p>
         </section>
 
-        <section>
+        <section id="support">
           <h2>Підтримка браузерів</h2>
           <img src="./assets/image/Browsers.jpg" alt="browsers">
           <p>
@@ -39,7 +55,7 @@
           </p>
         </section>
 
-        <section>
+        <section id="new-elements">
           <h2>Нові семантичні елементи в HTML5</h2>
           <p>HTML5 пропонує нові семантичні елементи для визначення різних частин
             веб-сторінки:</p>
@@ -51,7 +67,7 @@
             </ul>  
         </section>
 
-        <section>
+        <section id="section">
           <h2>HTML5 &lt;section&gt; елемент</h2>
           <p>Елемент &lt;section&gt;визначає розділ в документі.
           </p>
@@ -64,7 +80,7 @@
           <img src="./assets/image/Section-x2.jpg" alt="section-code-example">
         </section>
 
-        <section>
+        <section id="article">
           <h2>HTML5 &lt;article&gt; елемент</h2>
           <p>Елемент &lt;article&gt;визначає незалежний, автономний вміст</p>
           <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість
@@ -78,7 +94,7 @@
           <img src="./assets/image/Article-x2.jpg" alt="article-code-example">
         </section>
 
-        <section>
+        <section id="header">
           <h2>HTML5 &lt;header&gt; елемент</h2>
           <p>Елемент &lt;header&gt;задає заголовок для документа або розділу.</p>
           <p>Елемент &lt;header&gt;повинен використовуватися в якості контейнера для
@@ -90,7 +106,7 @@
           <img src="./assets/image/Header-x2.jpg" alt="header-code-example">
         </section>
 
-        <section>
+        <section id="footer">
           <h2>HTML5 &lt;footer&gt; елемент</h2>
           <p>Елемент &lt;footer&gt;вказує нижній колонтитул для документа або розділу.
           </p>
@@ -104,7 +120,7 @@
       <div>
         <iframe src="https://viktor-morhun.github.io/cv-landing-page/" height="400" width="730" title="cv"></iframe> 
       </div>
-      <iframe height="460" width="730" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="video-webinar"></iframe>
+      <iframe height="460" width="730" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="video-webinar" allowfullscreen></iframe>
     </main>
   </body>
 </html>
